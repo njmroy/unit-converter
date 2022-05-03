@@ -1,0 +1,72 @@
+
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(21, 21, 99);
+}
+
+#id {
+    font-size: 15em;
+}
+.input-text {
+    text-align: center;
+    font-size: 20vh;
+    padding-top: 20px;
+    background: transparent; 
+    border: none;
+    max-width: 50%;
+    min-width: 10%;
+    color: white;
+    position: relative;
+}
+.top {
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(223deg 100% 28%) 11%,
+  hsl(217deg 100% 34%) 22%,
+  hsl(211deg 100% 38%) 33%,
+  hsl(204deg 100% 38%) 44%,
+  hsl(194deg 100% 36%) 56%,
+  hsl(179deg 100% 32%) 67%,
+  hsl(162deg 100% 36%) 78%,
+  hsl(146deg 100% 40%) 89%,
+  hsl(109deg 72% 50%) 100%
+);
+overflow-y: none;
+    display: block;
+    min-height: 10vh;
+    position: center;
+    height: 50vh;
+    background-color: aqua;
+    margin: 0;
+}
+.padded-text {
+    padding: 2vh;
+}
+
+.bottom{
+    background-image: linear-gradient(
+  45deg,
+  hsl(132deg 86% 51%) 0%,
+  hsl(92deg 100% 44%) 11%,
+  hsl(80deg 100% 41%) 22%,
+  hsl(67deg 100% 37%) 33%,
+  hsl(54deg 100% 37%) 44%,
+  hsl(43deg 100% 41%) 56%,
+  hsl(34deg 100% 44%) 67%,
+  hsl(26deg 100% 47%) 78%,
+  hsl(17deg 100% 49%) 89%,
+  hsl(0deg 100% 50%) 100%
+);
+    margin-top: 0;
+    height: 50vh;
+    background-color: black;
+}
+
+.bottom3row {
+    height: 10vh;
+}
